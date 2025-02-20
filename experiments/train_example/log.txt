@@ -1,0 +1,77 @@
+[20-02-2025-06:45:11]  
+[20-02-2025-06:45:11]  ####### train_example ########
+[20-02-2025-06:45:11]  
+[20-02-2025-06:45:11]  ######## args ########
+[20-02-2025-06:45:11]  aux_iou: False
+[20-02-2025-06:45:11]  batch_size: 1
+[20-02-2025-06:45:11]  bigger_phoc: False
+[20-02-2025-06:45:11]  box_filter_L2_reg: 0.01
+[20-02-2025-06:45:11]  box_filter_num_clsses: 5
+[20-02-2025-06:45:11]  box_filter_prob_threshold: 0.3
+[20-02-2025-06:45:11]  box_reg_L2_reg: 0.01
+[20-02-2025-06:45:11]  box_reg_neg_cls_weight: 1.0
+[20-02-2025-06:45:11]  box_reg_pos_cls_weight: 100.0
+[20-02-2025-06:45:11]  boxes_per_class: 20
+[20-02-2025-06:45:11]  crop_words: False
+[20-02-2025-06:45:11]  data_type: train
+[20-02-2025-06:45:11]  data_type_prob: None
+[20-02-2025-06:45:11]  dataset: iclef
+[20-02-2025-06:45:11]  decay_after_it_ratio: 50000
+[20-02-2025-06:45:11]  dropout: 0.0
+[20-02-2025-06:45:11]  embed_model: MyOldPHOC
+[20-02-2025-06:45:11]  eval_run: False
+[20-02-2025-06:45:11]  experiment_dir: experiments
+[20-02-2025-06:45:11]  feature_map_height: 150
+[20-02-2025-06:45:11]  feature_map_width: 112
+[20-02-2025-06:45:11]  gaussian_noise_apply_prob: 0.0
+[20-02-2025-06:45:11]  gpu_alloc: 0.99
+[20-02-2025-06:45:11]  gpu_id: 0
+[20-02-2025-06:45:11]  gray_augment: False
+[20-02-2025-06:45:11]  gt_heatmap_trim_ratio: 0.2
+[20-02-2025-06:45:11]  heatmap_L2_reg: 0.01
+[20-02-2025-06:45:11]  heatmap_neg_cls_weight: 0.33
+[20-02-2025-06:45:11]  heatmap_pos_cls_weight: 0.67
+[20-02-2025-06:45:11]  heatmap_total_loss_weight: 50
+[20-02-2025-06:45:11]  hmap_ablation: False
+[20-02-2025-06:45:11]  hmap_border: False
+[20-02-2025-06:45:11]  image_embedding_apply_prob: 0.5
+[20-02-2025-06:45:11]  image_embedding_resize_ratio_bounds: (0.75, 1.0)
+[20-02-2025-06:45:11]  image_normalize_const: 255.0
+[20-02-2025-06:45:11]  iou_cls_lower_bound: None
+[20-02-2025-06:45:11]  iou_predictions_loss_weight: 5.0
+[20-02-2025-06:45:11]  iou_threshold_for_detection: 0.6
+[20-02-2025-06:45:11]  iters: 100
+[20-02-2025-06:45:11]  learning_rate_decay: 0.1
+[20-02-2025-06:45:11]  load_vars: None
+[20-02-2025-06:45:11]  log_prefix: None
+[20-02-2025-06:45:11]  log_steps: 500
+[20-02-2025-06:45:11]  lr_boxes: 0.0005
+[20-02-2025-06:45:11]  lr_hmap: 0.0001
+[20-02-2025-06:45:11]  min_iou_cls_for_phoc: 2
+[20-02-2025-06:45:11]  name: train_example
+[20-02-2025-06:45:11]  nms_overlap_thresh: 0.1
+[20-02-2025-06:45:11]  num_of_classes_to_sum: 3
+[20-02-2025-06:45:11]  output_all: False
+[20-02-2025-06:45:11]  partial_image_prob: 0.0
+[20-02-2025-06:45:11]  phoc_act: relu
+[20-02-2025-06:45:11]  phoc_dim: 540
+[20-02-2025-06:45:11]  phoc_loss_weight: 150
+[20-02-2025-06:45:11]  regression_target_scaling_factor: 1500
+[20-02-2025-06:45:11]  reset_gs: False
+[20-02-2025-06:45:11]  save_steps: 2000
+[20-02-2025-06:45:11]  score_thresh: 0.5
+[20-02-2025-06:45:11]  seed: 128
+[20-02-2025-06:45:11]  segment_free: True
+[20-02-2025-06:45:11]  stat_prefix: None
+[20-02-2025-06:45:11]  std_phoc: False
+[20-02-2025-06:45:11]  target_size: (900, 1200)
+[20-02-2025-06:45:11]  tf_debug: False
+[20-02-2025-06:45:11]  tiny_phoc: False
+[20-02-2025-06:45:11]  train_hmap: True
+[20-02-2025-06:45:11]  train_prcnt: None
+[20-02-2025-06:45:11]  train_regression: True
+[20-02-2025-06:45:11]  train_vars: None
+[20-02-2025-06:45:11]  unet_depth: 5
+[20-02-2025-06:45:11]  unet_size: 8
+[20-02-2025-06:45:11]  unet_with_img: False
+[20-02-2025-06:45:11]  Finished Logging 76 lines written

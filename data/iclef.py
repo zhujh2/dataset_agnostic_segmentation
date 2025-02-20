@@ -9,7 +9,7 @@ from .metaimage import MetaImage
 
 
 class IclefDataset(object):
-    BBOX_FILE = 'bboxs_train_for_query-by-example.txt/bboxs_train_for_query-by-example.txt'
+    BBOX_FILE = 'bboxs_train_for_query-by-example.txt'
 
     PAGES_PATTERN = 'pages_%s_jpg/pages_%s'
 
